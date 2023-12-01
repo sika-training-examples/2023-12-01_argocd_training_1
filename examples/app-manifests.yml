@@ -4,6 +4,7 @@ metadata:
   name: manifests
   namespace: argocd
 spec:
+  replicas: 3
   destination:
     namespace: default
     server: https://kubernetes.default.svc
